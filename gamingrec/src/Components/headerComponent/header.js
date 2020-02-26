@@ -18,8 +18,11 @@ function Header() {
                 <Link to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="/MyPlayedGames">MyPlayedGames</Link>
+                <Link to="/MyPlayedGames">My Played Games</Link>
                     
+                </li>
+                <li>
+                  <Link to = "/login"> Login </Link>
                 </li>
                 
             </ul>

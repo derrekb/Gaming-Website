@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className="container-fluid">
 <h1>
-  Login Here:
+  
 </h1>
 <p>
 

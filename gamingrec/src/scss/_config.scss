@@ -7,6 +7,7 @@ $white: #ffffff;
 $lightGrey: #e6e6e6;
 $darkGrey: #333;
 $red: #ff1755;
+$opcaity: rgba(0,0,0,0.5);
 
 /*
 fonts
@@ -33,31 +34,10 @@ mixins
     transition: $e;
 }
 
-body{
-    font-family: 'Poppins', ;
-    font-size: 1rem;
-    color: $black;
-    font-weight: 400;
-    font-style: normal;
-}
-
-a{
-    text-decoration: darkgray ;
-    // @include transition(.4s ease-in-out);
-    cursor: pointer;
-    color: $white;
-    transition: .7s;
-    &:hover{
-        color: $red;
-        transition: .4s;
-        // @include transition(.4s ease-in-out);
-    }
-}
-
-
 
 .container-fluid{
     line-height: 24px;
+    padding: 3rem;
 }
 
 /*
