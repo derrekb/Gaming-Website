@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
         <div className="logo">
-        LOGO
+        GMRZ
         </div>
 
         <nav>
@@ -21,9 +21,7 @@ function Header() {
                 <Link to="/MyPlayedGames">MyPlayedGames</Link>
                     
                 </li>
-                <li className="last">
-                <Link to="/">Contact</Link>
-                </li>
+                
             </ul>
         </nav>
     </header>

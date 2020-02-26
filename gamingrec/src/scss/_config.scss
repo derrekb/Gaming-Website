@@ -2,7 +2,7 @@
 vars
 */
 
-$black: #010000;
+$black: #111111;
 $white: #ffffff;
 $lightGrey: #e6e6e6;
 $darkGrey: #333;
@@ -34,21 +34,23 @@ mixins
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins', ;
+    font-size: 1rem;
     color: $black;
     font-weight: 400;
     font-style: normal;
 }
 
 a{
-    text-decoration: none;
-    @include transition(.4s ease-in-out);
+    text-decoration: darkgray ;
+    // @include transition(.4s ease-in-out);
     cursor: pointer;
-
+    color: $white;
+    transition: .7s;
     &:hover{
-        color:red;
-        @include transition(.4s ease-in-out);
+        color: $red;
+        transition: .4s;
+        // @include transition(.4s ease-in-out);
     }
 }
 
@@ -56,7 +58,6 @@ a{
 
 .container-fluid{
     line-height: 24px;
-
 }
 
 /*

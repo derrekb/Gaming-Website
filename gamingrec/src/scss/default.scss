@@ -1,5 +1,8 @@
 @import "_config.scss";
 
+* {
+    margin: auto;
+}
 
 
 header{
@@ -14,15 +17,23 @@ header{
 .logo{
     position: absolute;
     top: 50%; left: 15px;
+    font-size: 140px;
     @include translateY(-50%);
 }
 
-nav,
-nav ul,
-nav ul li{
-    margin: 0;
-    padding: 0;
+// nav,
+// nav ul,
+// nav ul li{
+//     margin: 0;
+//     padding: 0;
 
+// }
+
+nav {
+    li {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 nav{
