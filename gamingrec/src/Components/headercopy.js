@@ -10,11 +10,7 @@ import {
 function Header() {
   return (
     <header>
-
-
       <div className = "transbox">
-       
-      
         <div className="logo">
         
         <Link to="/Homepage"> GMRZ</Link>
@@ -45,6 +41,5 @@ function Header() {
     </header>
   );
 }
-
 
 export default Header;
