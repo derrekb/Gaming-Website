@@ -8,6 +8,7 @@ import {
 function Header() {
   return (
     <header>
+      <div className = "transbox">
         <div className="logo">
         GMRZ
         </div>
@@ -27,6 +28,7 @@ function Header() {
                 
             </ul>
         </nav>
+        </div>
     </header>
   );
 }
