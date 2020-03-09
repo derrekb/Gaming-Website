@@ -3,18 +3,25 @@ import {
   
     Link
   } from 'react-router-dom';
-
+ 
 
 function Header() {
   return (
     <header>
       <div className = "transbox">
         <div className="logo">
-        GMRZ
+        
+        <Link to="/Homepage"> GMRZ</Link>
+        
         </div>
 
         <nav>
             <ul>
+              <li className = "Search">
+                Search:
+                <input type = "text"/>
+              </li>
+
                 <li className="first">
                 <Link to="/">Home</Link>
                 </li>
